@@ -18,7 +18,7 @@
     --item-bgclr-yellow:#fff3d1;
 
     /* nuteral clr */
-    --clr-neutral-100: hsl(var(--clr-neutral-hsl-100));
+    --clr-neutral-100: hsl(0, 0%, 35%);
     --clr-neutral-200: hsl(var(--clr-neutral-hsl-200));
     --clr-neutral-300: hsl(var(--clr-neutral-hsl-300));
     --clr-neutral-700: hsl(224, 30%, 27%);
@@ -114,8 +114,12 @@ main .flow{
 
 .summry .title-flow{
     display: grid;
-    align-items: end;
+    /* align-items: end; */
     justify-items: start;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: var(--clr-neutral-100);
+    font-weight: 700;
 }
 
 
